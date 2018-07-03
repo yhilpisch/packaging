@@ -10,7 +10,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(name='pylib',
-      version='0.15',
+      version='0.16',
       description='pylib Tools & Skills',
       long_description=long_description,
       long_description_content_type='text/markdown',

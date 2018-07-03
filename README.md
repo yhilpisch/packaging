@@ -20,7 +20,7 @@ In addition to the package files, the Git repository contains also other files u
 
 On the shell, create an environment with `conda`:
 
-    conda create -n test-pylib pyton=3.6 ipython
+    conda create -n test-pylib python=3.6 ipython
     conda activate test-pylib
 
 ### Installation from Source
