@@ -2,12 +2,19 @@
 # Setup file for
 # pylib example
 #
+# The Python Quants GmbH
+# 
 from setuptools import setup
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
 setup(name='pylib',
-      version='0.1',
+      version='0.15',
       description='pylib Tools & Skills',
-      author='Yves',
+      long_description=long_description,
+      long_description_content_type='text/markdown',
+      author='Yves Hilpisch',
       author_email='training@tpq.io',
       url='http://certificate.tpq.io',
       packages=['pylib', 'pylib.suba', 'pylib.subb'],

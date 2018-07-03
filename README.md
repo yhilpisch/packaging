@@ -2,6 +2,8 @@
 
 This is the rather simplistic packaging example from the Tools & Skills class of The Python Quants.
 
+<br>
+
 <img src="http://hilpisch.com/images/finaince_visual_low.png" width=300px>
 
 ## Package
