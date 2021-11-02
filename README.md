@@ -14,7 +14,7 @@ Certificate Programs, November 2021
 
 You find the slides under:
 
-https://certificate.tpq.io/tools_skills_pack.pdf
+https://certificate.tpq.io/tools_skills_dist.pdf
 
 ## pylib &mdash; Python Packaging
 
