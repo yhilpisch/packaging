@@ -8,7 +8,9 @@ Certificate Programs, November 2021
 
 (short link to this Git repository: http://bit.ly/ts_pack)
 
+
 <img src="http://hilpisch.com/tpq_viz.png" width=300px>
+
 
 ## Slides
 
@@ -77,7 +79,7 @@ Alternatively, install the `pylib` package via
 
 You can also install the `pylib` package via
 
-    pip install --index-url https://test.pypi.org/simple/ pylib
+    pip install -i https://test.pypi.org/simple/ pylib
     
 ### First Steps
     

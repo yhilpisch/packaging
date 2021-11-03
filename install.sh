@@ -16,13 +16,15 @@ apt-get install -y python3 python3-pip
 pip3 install pip --upgrade
 pip install numpy pandas scipy
 pip install matplotlib xarray q
-pip install twine setuptools wheels
+pip install twine
+pip install setuptools wheels
 pip install ipython jupyterlab
 
 # Configuration
 wget https://certificate.tpq.io/.vimrc -O ~/.vimrc
-mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/
-mv jupyter_shortcuts.json .jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings
+mkdir /root/.jupyter
+mkdir -p /root/.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/
+cp jupyter_shortcuts.json .jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings
 
 # JupyterLab
 jupyter server password
