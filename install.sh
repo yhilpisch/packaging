@@ -24,7 +24,7 @@ pip install ipython jupyterlab
 wget https://certificate.tpq.io/.vimrc -O ~/.vimrc
 mkdir /root/.jupyter
 mkdir -p /root/.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/
-cp jupyter_shortcuts.json .jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings
+cp jupyter_shortcuts.json /root/.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings
 
 # JupyterLab
 jupyter server password
